@@ -11,7 +11,7 @@ export function Vetra() {
   ]
 
   return (
-    <section id="vetra" className="relative px-6 py-24 sm:px-8 lg:px-12">
+    <section id="vetra" className="relative px-6 py-24 sm:px-8 lg:px-12 lg:pl-80">
       <div className="relative max-w-6xl mx-auto">
         <h2 className="text-3xl sm:text-4xl font-bold tracking-tight mb-12 leading-tight">Vetra enables sovereignty for SNOs</h2>
 

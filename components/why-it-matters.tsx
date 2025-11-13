@@ -18,7 +18,7 @@ export function WhyItMatters() {
   ]
 
   return (
-    <section id="from-daos-to-snos" className="relative px-4 py-24 sm:px-6 lg:px-8">
+    <section id="from-daos-to-snos" className="relative px-4 py-24 sm:px-6 lg:px-8 lg:pl-80">
       <div className="max-w-5xl mx-auto">
         <h2 className="text-3xl sm:text-4xl font-bold tracking-tight mb-8 leading-tight">From DAOs to SNOs</h2>
 

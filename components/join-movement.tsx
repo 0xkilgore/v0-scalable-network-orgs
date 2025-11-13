@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export function JoinMovement() {
   return (
-    <section id="osc-framework" className="relative px-4 py-24 sm:px-6 lg:px-8">
+    <section id="osc-framework" className="relative px-4 py-24 sm:px-6 lg:px-8 lg:pl-80">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl sm:text-4xl font-bold tracking-tight mb-8 leading-tight">A Framework for Open-Source Capitalism</h2>
 

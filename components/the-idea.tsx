@@ -6,7 +6,7 @@ export function TheIdea() {
   ]
 
   return (
-    <section id="future-of-work" className="relative px-4 py-24 sm:px-6 lg:px-8">
+    <section id="future-of-work" className="relative px-4 py-24 sm:px-6 lg:px-8 lg:pl-80">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl sm:text-4xl font-bold tracking-tight mb-8 leading-tight">The Future of Work Needs New Structures</h2>
         

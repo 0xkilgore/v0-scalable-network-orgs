@@ -35,7 +35,7 @@ export function FourPrinciples() {
   ]
 
   return (
-    <section id="five-entities" className="relative px-4 py-24 sm:px-6 lg:px-8">
+    <section id="five-entities" className="relative px-4 py-24 sm:px-6 lg:px-8 lg:pl-80">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl sm:text-4xl font-bold tracking-tight mb-8 leading-tight">Five Entities, One Network</h2>
 

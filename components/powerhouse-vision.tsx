@@ -12,7 +12,7 @@ export function PowerhouseVision() {
   ]
 
   return (
-    <section id="achra" className="relative px-6 py-24 sm:px-8 lg:px-12">
+    <section id="achra" className="relative px-6 py-24 sm:px-8 lg:px-12 lg:pl-80">
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[#FF7A1A]/5 rounded-full blur-[120px] pointer-events-none" />
 
       <div className="relative max-w-6xl mx-auto">

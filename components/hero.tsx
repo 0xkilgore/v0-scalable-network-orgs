@@ -1,6 +1,6 @@
 export function Hero() {
   return (
-    <section id="snos" className="relative px-4 pt-32 pb-24 sm:px-6 lg:px-8">
+    <section id="snos" className="relative px-4 pt-32 pb-24 sm:px-6 lg:px-8 lg:pl-80">
       {/* Radial glow */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[600px] bg-[#FF7A1A]/10 rounded-full blur-[120px] pointer-events-none" />
 
