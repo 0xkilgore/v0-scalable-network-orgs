@@ -1,55 +1,65 @@
 import { Card } from "@/components/ui/card"
 
 export function FourPrinciples() {
-  const principles = [
+  const entities = [
     {
-      number: "01",
-      title: "Coordination Through a Marketplace Platform",
+      number: "1",
+      title: "DAO",
       description:
-        "Builder marketplaces coordinate developers, designers, and product teams on transparent roadmaps. Efficient collaboration replaces ad-hoc contribution.",
+        "The decision-making community. Sets direction in public, allocates resources, and maintains shared standards.",
     },
     {
-      number: "02",
-      title: "Profits Before Distribution",
+      number: "2",
+      title: "Operational Hub",
       description:
-        "Revenue-Generating Hubs use open-source products to serve users. A portion of profit flows back to builders and investors through structured retroactive rewards.",
+        "A nonprofit or service entity. Handles compliant payments, payroll, grants, and contributor onboarding across regions.",
     },
     {
-      number: "03",
-      title: "Maximizing Value Capture (Commercial Licensing)",
+      number: "3",
+      title: "OCF (Open Capital Facility)",
       description:
-        "Dual licensing blends growth with reciprocation. Open license for collaboration. Commercial license for enterprises that prefer not to share all code.",
+        "The investment layer. Links capital to contribution using non-transferable work receipts so funding tracks real work.",
     },
     {
-      number: "04",
-      title: "Making Open Source Investable",
+      number: "4",
+      title: "RGH (Revenue-Generating Hub)",
       description:
-        "Operational Collateral Funds let investors back open networks. Capital enters through instruments like POWt that represent future revenue from open projects.",
+        "The commercial arm. Signs contracts, invoices customers, and shares a portion of revenue back to the network through retroactive public goods funding.",
+    },
+    {
+      number: "5",
+      title: "IP Entity",
+      description:
+        "The brand and rights steward. Holds trademarks and software rights on behalf of the network to protect the commons.",
     },
   ]
 
   return (
-    <section id="four-principles" className="relative px-4 py-24 sm:px-6 lg:px-8">
+    <section id="five-entities" className="relative px-4 py-24 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-3xl sm:text-4xl font-bold tracking-tight mb-12 leading-tight">The Four Principles</h2>
+        <h2 className="text-3xl sm:text-4xl font-bold tracking-tight mb-8 leading-tight">Five Entities, One Network</h2>
 
-        <div className="space-y-6">
-          {principles.map((principle, index) => (
+        <div className="space-y-6 mb-8">
+          {entities.map((entity, index) => (
             <Card
               key={index}
-              className="p-6 bg-card/30 backdrop-blur-sm border-cyan-500/10 hover:border-cyan-500/30 transition-colors relative overflow-hidden group"
+              className="p-6 bg-card/30 backdrop-blur-sm border-[#FF7A1A]/10 hover:border-[#FF7A1A]/30 transition-colors relative overflow-hidden group"
             >
-              <div className="absolute top-0 left-0 w-1 h-full bg-gradient-to-b from-cyan-500 to-purple-500 opacity-50 group-hover:opacity-100 transition-opacity" />
+              <div className="absolute top-0 left-0 w-1 h-full bg-gradient-to-b from-[#FF7A1A] to-purple-500 opacity-50 group-hover:opacity-100 transition-opacity" />
               <div className="pl-4">
-                <div className="text-xs font-mono font-medium tracking-wider uppercase text-cyan-400 mb-3">
-                  {principle.number}
+                <div className="text-xs font-mono font-medium tracking-wider uppercase text-[#FF7A1A] mb-3">
+                  {entity.number}
                 </div>
-                <h3 className="text-xl font-semibold mb-3 leading-tight">{principle.title}</h3>
-                <p className="text-muted-foreground leading-relaxed max-w-[85ch]">{principle.description}</p>
+                <h3 className="text-xl font-semibold mb-3 leading-tight">{entity.title}</h3>
+                <p className="text-muted-foreground leading-relaxed max-w-[85ch]">{entity.description}</p>
               </div>
             </Card>
           ))}
         </div>
+
+        <p className="text-lg text-muted-foreground leading-relaxed max-w-[85ch]">
+          Together these entities route capital and contributions without concentrating control. Governance and IP set direction and rights. Hubs do the work and meet compliance needs.
+        </p>
       </div>
     </section>
   )

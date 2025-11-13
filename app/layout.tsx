@@ -8,9 +8,9 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Open-Source Capitalism | Powerhouse",
+  title: "Scalable Network Organizations | Powerhouse",
   description:
-    "An economic framework that makes open networks investable and sustainable by aligning markets with the commons.",
+    "SNOs are how open ecosystems beat Big Tech. They channel funding and revenue back to contributors, protect the commons, and scale operations while the community sets the rules.",
   generator: "v0.app",
 }
 

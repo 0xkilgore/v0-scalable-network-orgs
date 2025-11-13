@@ -4,13 +4,15 @@ import { useState, useEffect } from "react"
 import { cn } from "@/lib/utils"
 
 const sections = [
-  { id: "the-idea", label: "The Idea" },
-  { id: "why-it-matters", label: "Why It Matters" },
-  { id: "the-problem", label: "The Problem" },
-  { id: "four-principles", label: "Four Principles" },
+  { id: "snos", label: "Scalable Network Organizations" },
+  { id: "future-of-work", label: "The Future of Work Needs New Structures" },
+  { id: "from-daos-to-snos", label: "From DAOs to SNOs" },
+  { id: "built-to-scale", label: "Built to Scale" },
+  { id: "five-entities", label: "Five Entities, One Network" },
   { id: "how-it-works", label: "How It Works" },
-  { id: "powerhouse-vision", label: "Powerhouse Vision" },
-  { id: "join-the-movement", label: "Join the Movement" },
+  { id: "achra", label: "Achra: where SNOs operate" },
+  { id: "vetra", label: "Vetra enables sovereignty for SNOs" },
+  { id: "osc-framework", label: "A Framework for Open-Source Capitalism" },
 ]
 
 export function StickyTOC() {
@@ -53,7 +55,7 @@ export function StickyTOC() {
             className={cn(
               "px-3 py-1.5 text-xs font-mono rounded-full transition-all text-left",
               activeSection === id
-                ? "bg-cyan-500/20 text-cyan-400 border border-cyan-500/30"
+                ? "bg-[#FF7A1A]/20 text-[#FF7A1A] border border-[#FF7A1A]/30"
                 : "text-muted-foreground hover:text-foreground hover:bg-muted/50",
             )}
           >
