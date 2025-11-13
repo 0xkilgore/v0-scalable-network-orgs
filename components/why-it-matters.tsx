@@ -28,35 +28,22 @@ export function WhyItMatters() {
 
         {/* Comparison Card */}
         <div className="bg-white/2 border border-white/10 rounded-2xl p-6 sm:p-8 mt-8">
-          <div className="space-y-6">
+          <div className="space-y-8">
             {comparisons.map((row, index) => (
-              <div key={index} className="pb-6 last:pb-0 border-b border-white/10 last:border-0">
-                {/* Desktop: 3 columns */}
-                <div className="hidden lg:grid lg:grid-cols-[200px_1fr_1fr] gap-6 items-start">
-                  <div className="text-sm font-semibold text-[#FF7A1A] uppercase tracking-wider">
-                    {row.label}
-                  </div>
-                  <div>
-                    <p className="text-xs font-mono uppercase text-white/50 mb-2">DAOs today</p>
-                    <p className="text-sm text-white/80 leading-relaxed">{row.dao}</p>
-                  </div>
-                  <div>
-                    <p className="text-xs font-mono uppercase text-white/50 mb-2">SNOs with the right entities</p>
-                    <p className="text-sm text-white/80 leading-relaxed">{row.sno}</p>
-                  </div>
+              <div key={index} className="pb-8 last:pb-0 border-b border-white/10 last:border-0">
+                {/* Label */}
+                <div className="text-sm font-semibold text-[#FF7A1A] uppercase tracking-wider mb-6 border-l-2 border-[#FF7A1A] pl-3">
+                  {row.label}
                 </div>
 
-                {/* Mobile: Stacked */}
-                <div className="lg:hidden space-y-4">
-                  <div className="text-sm font-semibold text-[#FF7A1A] uppercase tracking-wider border-l-2 border-[#FF7A1A] pl-3">
-                    {row.label}
-                  </div>
+                {/* Comparison Grid */}
+                <div className="grid md:grid-cols-2 gap-6">
                   <div>
-                    <p className="text-xs font-mono uppercase text-white/50 mb-2">DAOs today</p>
+                    <p className="text-xs font-mono uppercase text-white/50 mb-3">DAOs today</p>
                     <p className="text-sm text-white/80 leading-relaxed">{row.dao}</p>
                   </div>
                   <div>
-                    <p className="text-xs font-mono uppercase text-white/50 mb-2">SNOs with the right entities</p>
+                    <p className="text-xs font-mono uppercase text-white/50 mb-3">SNOs with the right entities</p>
                     <p className="text-sm text-white/80 leading-relaxed">{row.sno}</p>
                   </div>
                 </div>
