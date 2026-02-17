@@ -13,14 +13,15 @@ export function TheStakes() {
               This is already happening
             </p>
             <p className="text-lg text-white/90 leading-relaxed mb-4">
-              When OpenAI acqui-hired the OpenClaw robotics team, the community that built the project
-              had no recourse. No DAO to govern decisions, no IP entity to protect the commons, no
-              treasury to ensure contributors shared in the outcome.
+              OpenAI&apos;s acquisition of the OpenClaw team isn&apos;t the scandal — it&apos;s the symptom.
+              Open source lacks organizations that can scale into real institutions. OpenClaw had no
+              DAO, no IP entity, no treasury — nothing to make &quot;staying independent&quot; a
+              competitive option against a Big Tech comp package.
             </p>
             <p className="text-base text-white/70 leading-relaxed">
-              An SNO would have changed that. With a proper organizational structure — a DAO, an OCF,
-              and contributor equity baked in — the network could have negotiated collectively, not been
-              picked apart.{" "}
+              An SNO changes the equation. With governance, shared ownership, and operational
+              infrastructure baked in, open-source projects become institutions — not just repos
+              waiting to be acqui-hired.{" "}
               <Link
                 href="https://opensourcecapitalism.org"
                 target="_blank"
