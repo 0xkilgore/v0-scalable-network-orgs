@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils"
 const sections = [
   { id: "snos", label: "SNOs" },
   { id: "future-of-work", label: "Future of Work" },
-  { id: "from-daos-to-snos", label: "DAOs → SNOs" },
+  { id: "from-daos-to-snos", label: "Why It Matters" },
   { id: "built-to-scale", label: "Built to Scale" },
   { id: "five-entities", label: "Five Entities" },
   { id: "how-it-works", label: "How It Works" },
