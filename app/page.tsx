@@ -7,6 +7,7 @@ import { TheProblem } from "@/components/the-problem"
 import { FourPrinciples } from "@/components/four-principles"
 import { HowItWorks } from "@/components/how-it-works"
 import { PowerhouseVision } from "@/components/powerhouse-vision"
+import { OperationalHub } from "@/components/operational-hub"
 import { Vetra } from "@/components/vetra"
 import { TheStakes } from "@/components/the-stakes"
 import { JoinMovement } from "@/components/join-movement"
@@ -29,6 +30,7 @@ export default function Page() {
         <FourPrinciples />
         <HowItWorks />
         <PowerhouseVision />
+        <OperationalHub />
         <Vetra />
         <TheStakes />
         <JoinMovement />

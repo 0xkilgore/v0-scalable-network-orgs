@@ -1,4 +1,5 @@
 import { Card } from "@/components/ui/card"
+import Link from "next/link"
 
 export function FourPrinciples() {
   const entities = [
@@ -13,8 +14,8 @@ export function FourPrinciples() {
       number: "02",
       title: "Operational Hub",
       subtitle: "Turnkey back office for global teams",
-      description:
-        "A compliant legal entity — typically a Swiss Association — that handles the day-to-day: contributor payments across jurisdictions, invoice management, payroll, expense tracking, onboarding, and regulatory filings. The Operational Hub is the first product live on Achra, with entity formation, accounting, and legal services bundled in.",
+      description: null,
+      richDescription: true,
     },
     {
       number: "03",
@@ -66,7 +67,21 @@ export function FourPrinciples() {
                 <p className="text-xs font-medium tracking-wider uppercase text-[#FF7A1A] mb-3">
                   {entity.subtitle}
                 </p>
-                <p className="text-[15px] text-white/60 leading-relaxed max-w-[75ch]">{entity.description}</p>
+                <p className="text-[15px] text-white/60 leading-relaxed max-w-[75ch]">
+                  {entity.richDescription ? (
+                    <>
+                      A compliant legal entity — typically a Swiss Association — that handles the day-to-day:
+                      contributor payments across jurisdictions, invoice management, payroll, expense tracking,
+                      onboarding, and regulatory filings. The Operational Hub is the first product live on{" "}
+                      <Link href="https://achra.com" target="_blank" rel="noopener noreferrer" className="text-[#FF7A1A] hover:text-[#FF7A1A]/80 underline underline-offset-4 decoration-[#FF7A1A]/40 transition-colors">
+                        Achra
+                      </Link>
+                      , with entity formation, accounting, and legal services bundled in.
+                    </>
+                  ) : (
+                    entity.description
+                  )}
+                </p>
               </div>
             </Card>
           ))}

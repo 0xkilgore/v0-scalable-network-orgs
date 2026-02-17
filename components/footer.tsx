@@ -20,12 +20,12 @@ export function Footer() {
                 Powerhouse
               </Link>
               <Link
-                href="https://scalablenetworks.org"
+                href="https://opensourcecapitalism.org"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm text-white/70 hover:text-white transition-colors"
               >
-                SNOs
+                OSC
               </Link>
               <Link
                 href="https://achra.com"
