@@ -25,6 +25,7 @@ export default function Page() {
         <StickyTOC />
         <Hero />
         <TheIdea />
+        <TheStakes />
         <WhyItMatters />
         <TheProblem />
         <FourPrinciples />
@@ -32,7 +33,6 @@ export default function Page() {
         <PowerhouseVision />
         <OperationalHub />
         <Vetra />
-        <TheStakes />
         <JoinMovement />
         <Footer />
       </div>
