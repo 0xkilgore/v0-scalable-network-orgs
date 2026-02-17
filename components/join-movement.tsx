@@ -17,7 +17,7 @@ export function JoinMovement() {
           </p>
         </div>
 
-        <Link href="/" target="_blank" rel="noopener noreferrer">
+        <Link href="https://opensourcecapitalism.org" target="_blank" rel="noopener noreferrer">
           <Button
             variant="outline"
             className="rounded-full border-[#FF7A1A]/30 hover:bg-[#FF7A1A]/10 hover:border-[#FF7A1A]/50 transition-all bg-transparent"

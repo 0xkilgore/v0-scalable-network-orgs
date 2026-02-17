@@ -4,15 +4,15 @@ import { useState, useEffect } from "react"
 import { cn } from "@/lib/utils"
 
 const sections = [
-  { id: "snos", label: "Scalable Network Organizations" },
-  { id: "future-of-work", label: "The Future of Work Needs New Structures" },
-  { id: "from-daos-to-snos", label: "From DAOs to SNOs" },
+  { id: "snos", label: "SNOs" },
+  { id: "future-of-work", label: "Future of Work" },
+  { id: "from-daos-to-snos", label: "DAOs → SNOs" },
   { id: "built-to-scale", label: "Built to Scale" },
-  { id: "five-entities", label: "Five Entities, One Network" },
+  { id: "five-entities", label: "Five Entities" },
   { id: "how-it-works", label: "How It Works" },
-  { id: "achra", label: "Achra: where SNOs operate" },
-  { id: "vetra", label: "Vetra enables sovereignty for SNOs" },
-  { id: "osc-framework", label: "A Framework for Open-Source Capitalism" },
+  { id: "achra", label: "Achra" },
+  { id: "vetra", label: "Vetra" },
+  { id: "osc-framework", label: "OSC Framework" },
 ]
 
 export function StickyTOC() {
@@ -46,8 +46,8 @@ export function StickyTOC() {
   }
 
   return (
-    <nav className="hidden lg:block fixed top-1/2 -translate-y-1/2 left-8 z-50">
-      <div className="flex flex-col gap-2">
+    <nav className="hidden lg:block fixed top-1/2 -translate-y-1/2 left-6 z-50 max-w-[180px]">
+      <div className="flex flex-col gap-1.5">
         {sections.map(({ id, label }) => (
           <button
             key={id}
