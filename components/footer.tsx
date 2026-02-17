@@ -12,7 +12,7 @@ export function Footer() {
             <h3 className="text-xs font-medium tracking-wider uppercase text-white/50 mb-4">Network</h3>
             <nav className="flex flex-wrap gap-x-6 gap-y-2">
               <Link
-                href="https://www.powerhouse.inc/"
+                href="https://www.powerhouse.io/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm text-white/70 hover:text-white transition-colors"
@@ -85,7 +85,7 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="pt-8 border-t border-white/10">
           <p className="text-xs text-white/50 text-center sm:text-left">
-            © 2025 Powerhouse. Building the future of open networks.
+            © 2026 Powerhouse. Building the future of open networks.
           </p>
         </div>
       </div>

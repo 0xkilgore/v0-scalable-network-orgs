@@ -7,7 +7,7 @@ export function Header() {
       {/* Powerhouse logo - top left */}
       <header className="fixed top-0 left-0 z-50 p-6 sm:p-8">
         <Link
-          href="https://www.powerhouse.inc"
+          href="https://www.powerhouse.io"
           target="_blank"
           rel="noopener noreferrer"
           className="block transition-opacity hover:opacity-80"
