@@ -11,7 +11,9 @@ export const metadata: Metadata = {
   title: "Scalable Network Organizations | Powerhouse",
   description:
     "SNOs are how open ecosystems beat Big Tech. They channel funding and revenue back to contributors, protect the commons, and scale operations while the community sets the rules.",
-
+  verification: {
+    google: "zzg8CJK4RMQk4hc6oan09EPwcewZzwsHQhU3Gs_4W7k",
+  },
 }
 
 export default function RootLayout({
